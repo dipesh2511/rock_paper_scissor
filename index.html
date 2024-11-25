@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+</head>
+
+<body>
+    <nav id="nav-bar">
+        <h1 class="top-heading">You : <span id="your-display">0</span></h1>
+        <h1 class="top-heading">Computer-Wa <span id="computer-display">0</span></h1>
+    </nav>
+    <main id="container">
+        <h1 class="heading">Choose : Among three to beat computer</h1>
+        <div id="gestures-container">
+            <h1 class="btn" data-value="stone">✊</h1>
+            <h1 class="btn" data-value="paper">🤚</h1>
+            <h1 class="btn" data-value="scissor">✌️</h1>
+        </div>
+        <h1 id="winloose" class="heading">Game will start as soon as you select</h1>
+        <h3 id="showing" class="heading">Game is a Best of 5 game </h3>
+        <div id="outcome-container">
+            <div class="show-container" style="width: 40%;">
+                <h3 class="heading">You Selected</h3>
+                <h1 style="font-size: 5rem;" class="heading" id="you-selected"></h1>
+            </div>
+            <div class="show-container" style="width: 40%;">
+                <h3 class="heading">Computer Selected</h3>
+                <h1 style="font-size: 5rem;" class="heading" id="computer-selected"></h1>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+
+</html>
